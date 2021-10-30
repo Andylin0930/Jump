@@ -1,0 +1,1134 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/DD/Jump/Junp01
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7408
+Successfully changed project path to: D:/unity/DD/Jump/Junp01
+D:/unity/DD/Jump/Junp01
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/DD/Jump/Junp01/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   30.0.14.7151
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002112 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1638ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (373ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (157ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 4.000100 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.174600 ms MarkObjects: 3.476200 ms  DeleteObjects: 0.076800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/圖片
+  artifactKey: Guid(78d4e4bd20370cd43ac84875704922c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片 using Guid(78d4e4bd20370cd43ac84875704922c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bc99606007375e5eeb2415e12bb429') in 0.008900 seconds 
+  Import took 0.022604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.326536 seconds.
+  path: Assets/圖片/New Folder
+  artifactKey: Guid(5afc4ef2c977c394c96dcc134512f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/New Folder using Guid(5afc4ef2c977c394c96dcc134512f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe1dbda84df3a104e1eb19419cdd801') in 0.006651 seconds 
+  Import took 0.018488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.596223 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.010466 seconds 
+  Import took 0.016752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001153 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002278 seconds 
+  Import took 0.007719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.962707 seconds.
+  path: Assets/動畫
+  artifactKey: Guid(69572d64eafbc7341ad4efc80ab4359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫 using Guid(69572d64eafbc7341ad4efc80ab4359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6999e9bb46cfd8c587063fce64b93') in 0.005065 seconds 
+  Import took 0.007961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.325772 seconds.
+  path: Assets/圖片/Individual Sprites
+  artifactKey: Guid(e7d389db69928494e8605ec0f875d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites using Guid(e7d389db69928494e8605ec0f875d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f6d10efcc199937b42692885fc71da') in 0.006802 seconds 
+  Import took 0.010348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/圖片/Individual Sprites
+  artifactKey: Guid(e7d389db69928494e8605ec0f875d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites using Guid(e7d389db69928494e8605ec0f875d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f6d10efcc199937b42692885fc71da') in 0.001452 seconds 
+  Import took 0.004807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077017 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-00.png
+  artifactKey: Guid(5b04994db628d824a9f13708d1bc77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-00.png using Guid(5b04994db628d824a9f13708d1bc77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f13883158770827981e573bcbf7b162') in 0.081933 seconds 
+  Import took 0.084883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-hurt-02.png
+  artifactKey: Guid(ccaa6b1131931c148a0a8268efeeb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-hurt-02.png using Guid(ccaa6b1131931c148a0a8268efeeb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348768cc7da1d75cdf4f344d27db50c9') in 0.014071 seconds 
+  Import took 0.016570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-05.png
+  artifactKey: Guid(5ffec2187cc437c4eb053150b28aa37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-05.png using Guid(5ffec2187cc437c4eb053150b28aa37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5ef29be434e2afefcfb1beffb4828e') in 0.013277 seconds 
+  Import took 0.015835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-grb-02.png
+  artifactKey: Guid(efd0be5e92861a742a488cbc34511631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-grb-02.png using Guid(efd0be5e92861a742a488cbc34511631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e846bc8830f56ec09fd51c0cc792e619') in 0.012018 seconds 
+  Import took 0.014940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-hurt-00.png
+  artifactKey: Guid(65b0a38ca8b91ef4ca22e4f60151944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-hurt-00.png using Guid(65b0a38ca8b91ef4ca22e4f60151944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc30e259e138d6f40d2743d2ae09b2c') in 0.010764 seconds 
+  Import took 0.013360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack3-01.png
+  artifactKey: Guid(f92fc3628f2d03d4d8108ae7a5b40dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack3-01.png using Guid(f92fc3628f2d03d4d8108ae7a5b40dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9959d27c016d2a9895103a310a5ad5') in 0.011330 seconds 
+  Import took 0.056692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-grb-00.png
+  artifactKey: Guid(a9ee899f68b6a4a4eae5edbbc0bc7618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-grb-00.png using Guid(a9ee899f68b6a4a4eae5edbbc0bc7618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554a8d53a3d8627b0748d83454a82f8a') in 0.012167 seconds 
+  Import took 0.049967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-06.png
+  artifactKey: Guid(d88d9594fe848d54e927cf9a3e96cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-06.png using Guid(d88d9594fe848d54e927cf9a3e96cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0bd18b6fb986c561c0b59b0a1b6a17') in 0.010513 seconds 
+  Import took 0.013133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack3-00.png
+  artifactKey: Guid(2beb76baf787acd4faa1db5703c76f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack3-00.png using Guid(2beb76baf787acd4faa1db5703c76f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b255870cfa82dda356bb374acc7664') in 0.010327 seconds 
+  Import took 0.013006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack2-02.png
+  artifactKey: Guid(3c01c7cabc040884f85b2dfdb6556613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack2-02.png using Guid(3c01c7cabc040884f85b2dfdb6556613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d67b3d82fdf50df73cf31fb42109fd') in 0.011304 seconds 
+  Import took 0.013985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crouch-00.png
+  artifactKey: Guid(cc161e91d8148d34c9a6ea345b8372b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crouch-00.png using Guid(cc161e91d8148d34c9a6ea345b8372b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9be8ef480fb4184a2f89c270db34fc2') in 0.009514 seconds 
+  Import took 0.012342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-00.png
+  artifactKey: Guid(e078500253b39f54d93e389b7260b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-00.png using Guid(e078500253b39f54d93e389b7260b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaa1d347c9a584cf4db9c3c5dce743e') in 0.009965 seconds 
+  Import took 0.013023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack3-loop-00.png
+  artifactKey: Guid(8844d4fa31d798841ab0a28b0bf1ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack3-loop-00.png using Guid(8844d4fa31d798841ab0a28b0bf1ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3dc3cc1f38a87fd2181d3711c5c15d') in 0.011957 seconds 
+  Import took 0.014758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-clmb-01.png
+  artifactKey: Guid(bf4fffa823fc8744a93c01260ba824af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-clmb-01.png using Guid(bf4fffa823fc8744a93c01260ba824af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9705129fcd5ff65f4c199c356c093913') in 0.010524 seconds 
+  Import took 0.013408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-2-01.png
+  artifactKey: Guid(82402c005d9e6ba4a83b4eb6378cfb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-2-01.png using Guid(82402c005d9e6ba4a83b4eb6378cfb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1524031026c5944d865cf26f61a6ca27') in 0.011116 seconds 
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack2-01.png
+  artifactKey: Guid(91db06d5aba0d43439ee5a33a07a4578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack2-01.png using Guid(91db06d5aba0d43439ee5a33a07a4578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447a089ad0e79417e49ca4a6b022fbde') in 0.011371 seconds 
+  Import took 0.014014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-items-00.png
+  artifactKey: Guid(b9d8e529adb9517489bacd2cbee90fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-items-00.png using Guid(b9d8e529adb9517489bacd2cbee90fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f1d6ae6e97c52f07a8e9d2146c5d65') in 0.012465 seconds 
+  Import took 0.015103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack2-00.png
+  artifactKey: Guid(faba86ecc14bfe9459a2b2fefd3492ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack2-00.png using Guid(faba86ecc14bfe9459a2b2fefd3492ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd923d7552097e35087e00e6302256e4d') in 0.012363 seconds 
+  Import took 0.015257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack3-05.png
+  artifactKey: Guid(83cd82efb3acd5141864fcfdcf1e1d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack3-05.png using Guid(83cd82efb3acd5141864fcfdcf1e1d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4c1684bb2778e5abb883ad08000f20') in 0.010830 seconds 
+  Import took 0.013708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack1-01.png
+  artifactKey: Guid(6d7f678f071217e44a4e993894298fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack1-01.png using Guid(6d7f678f071217e44a4e993894298fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c252e89e2222463898acf85bbebeb3aa') in 0.010721 seconds 
+  Import took 0.013782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-05.png
+  artifactKey: Guid(6cd228d5720ed9d41af03aa952ed2c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-05.png using Guid(6cd228d5720ed9d41af03aa952ed2c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494455ff3d77ac1bd185d964079c7f3d') in 0.012539 seconds 
+  Import took 0.015410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-00.png
+  artifactKey: Guid(bcc63f27b4fef1e44be6bfc24608cb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-00.png using Guid(bcc63f27b4fef1e44be6bfc24608cb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab3f980b13edad23d06c3c7a175da18') in 0.011843 seconds 
+  Import took 0.014673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack1-04.png
+  artifactKey: Guid(0422d8f6bd00a8441bf836d02129b8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack1-04.png using Guid(0422d8f6bd00a8441bf836d02129b8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416f1da1ec712a4d2ab06af43ec47c1c') in 0.014906 seconds 
+  Import took 0.017905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack1-03.png
+  artifactKey: Guid(c7bc779dbde5df947bb2d56d6cbabf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack1-03.png using Guid(c7bc779dbde5df947bb2d56d6cbabf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e02659880f9f3f6244a6b80beacbbb') in 0.013428 seconds 
+  Import took 0.016253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-loop-00.png
+  artifactKey: Guid(22b39e441998196478a916db0d8011a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-loop-00.png using Guid(22b39e441998196478a916db0d8011a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbcaddd7af0dbe541f2adffd0958cd0') in 0.011893 seconds 
+  Import took 0.014537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-02.png
+  artifactKey: Guid(6e1c341c3f0b28041a0533ace8fb920e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-02.png using Guid(6e1c341c3f0b28041a0533ace8fb920e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad050f5a6d968c981bb6dcfbc0268fab') in 0.012835 seconds 
+  Import took 0.015690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-clmb-00.png
+  artifactKey: Guid(374a497a96037364fbca060439038c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-clmb-00.png using Guid(374a497a96037364fbca060439038c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502c2b70dae6b131a6b5367c3c4ead11') in 0.012419 seconds 
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack1-03.png
+  artifactKey: Guid(9a29a588a1b4ec047a545e70d7914dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack1-03.png using Guid(9a29a588a1b4ec047a545e70d7914dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef800b735a0f5c376f67fcc73f3cafa2') in 0.011143 seconds 
+  Import took 0.013754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack1-02.png
+  artifactKey: Guid(c6fe78dee48034340a87b74bf673964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack1-02.png using Guid(c6fe78dee48034340a87b74bf673964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2871f5a22a26d4c55c1f8aac2b6c572d') in 0.011110 seconds 
+  Import took 0.013822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-grb-03.png
+  artifactKey: Guid(a2e7c40e080473a49bfcbd2ded4fe41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-grb-03.png using Guid(a2e7c40e080473a49bfcbd2ded4fe41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ecade9b0471cc79fbb4a5dd8299247') in 0.010068 seconds 
+  Import took 0.013021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-02.png
+  artifactKey: Guid(933790e13b20c184b9a73df5ddfad188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-02.png using Guid(933790e13b20c184b9a73df5ddfad188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc4df1188c7cc54757e2598136efc09') in 0.012582 seconds 
+  Import took 0.015461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-loop-01.png
+  artifactKey: Guid(c8782c4d83486bd428108e4dade32ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-loop-01.png using Guid(c8782c4d83486bd428108e4dade32ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f61de11c979b59957b606c255b22bc9') in 0.018762 seconds 
+  Import took 0.021584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-02.png
+  artifactKey: Guid(125222dbb6b879643b4dd2c2c815d6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-02.png using Guid(125222dbb6b879643b4dd2c2c815d6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239d8a7741d6d93fa8017fb11bf0cbb7') in 0.011901 seconds 
+  Import took 0.014618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack1-00.png
+  artifactKey: Guid(4c990430ffa69d7408128bd64a9c3cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack1-00.png using Guid(4c990430ffa69d7408128bd64a9c3cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bc90cb594af41c463a3ecc57b94627') in 0.010178 seconds 
+  Import took 0.013016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-ladder-climb-00.png
+  artifactKey: Guid(16950045fd4171e4bb6f1186082b75ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-ladder-climb-00.png using Guid(16950045fd4171e4bb6f1186082b75ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e857e3bc9f9eecb8dfdc3daac5508e') in 0.012888 seconds 
+  Import took 0.015615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-loop-03.png
+  artifactKey: Guid(ab19a69e437239c48920807073d7385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-loop-03.png using Guid(ab19a69e437239c48920807073d7385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f252086d93aa7eb884c8d370721618') in 0.011174 seconds 
+  Import took 0.013971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-01.png
+  artifactKey: Guid(d0b4f863c5cb9b94fbe80c0eb93cf674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-01.png using Guid(d0b4f863c5cb9b94fbe80c0eb93cf674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4537d71b3f7eaf49fcb8a8769d71735') in 0.014329 seconds 
+  Import took 0.017112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-clmb-02.png
+  artifactKey: Guid(4cd5c01fd9d0b3a439b30ba5e69b2911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-clmb-02.png using Guid(4cd5c01fd9d0b3a439b30ba5e69b2911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a663e98d0c6d2efd74f16f16c9650f') in 0.012798 seconds 
+  Import took 0.015526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-02.png
+  artifactKey: Guid(c1a69664352069c4c8af787a00e774b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-02.png using Guid(c1a69664352069c4c8af787a00e774b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c08b0ebc69a680e2e72bf6ddba984f3') in 0.012021 seconds 
+  Import took 0.014875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-loop-02.png
+  artifactKey: Guid(6f5e456ab52ab5044b2af9a5184e213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-loop-02.png using Guid(6f5e456ab52ab5044b2af9a5184e213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0353dad26ec43aab6f85e8f5e4a493b') in 0.012913 seconds 
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-01.png
+  artifactKey: Guid(6bcd789ccafef0548b5237ef6f36a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-01.png using Guid(6bcd789ccafef0548b5237ef6f36a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8acb37e7d87a229edce5b39c6ed6621') in 0.013229 seconds 
+  Import took 0.015946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack1-01.png
+  artifactKey: Guid(3731a9946985b444185065c9089df3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack1-01.png using Guid(3731a9946985b444185065c9089df3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d9165f7a05c5b60d82e18fe5583b67') in 0.010648 seconds 
+  Import took 0.013587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-01.png
+  artifactKey: Guid(0ade7f1a42d7aae4db5bee74821ea674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-01.png using Guid(0ade7f1a42d7aae4db5bee74821ea674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030f521721f696b7985ea341898f3b89') in 0.010729 seconds 
+  Import took 0.013550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack1-02.png
+  artifactKey: Guid(f819e571db3e28145ad584dbdf3fd160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack1-02.png using Guid(f819e571db3e28145ad584dbdf3fd160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce92bde92c226245b4485bb31a1ac63') in 0.012206 seconds 
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-00.png
+  artifactKey: Guid(8e9d16ba1d40aff48a0a18b4fc190896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-00.png using Guid(8e9d16ba1d40aff48a0a18b4fc190896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e735737cc7b015ffb457289cd2b677a0') in 0.011887 seconds 
+  Import took 0.014777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-03.png
+  artifactKey: Guid(aa42a3acc9af08644a8bc3671d22e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-03.png using Guid(aa42a3acc9af08644a8bc3671d22e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7c8a9ec19b897c896e4df232dc6350') in 0.011557 seconds 
+  Import took 0.014491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-hurt-01.png
+  artifactKey: Guid(dc98e13c983b54d4ca5f71c4835001ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-hurt-01.png using Guid(dc98e13c983b54d4ca5f71c4835001ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602d686731e733c155cb94ca1d6bb897') in 0.010358 seconds 
+  Import took 0.013497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack3-04.png
+  artifactKey: Guid(dfa8ea7e11c57b842b0dd8dddce8acda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack3-04.png using Guid(dfa8ea7e11c57b842b0dd8dddce8acda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5767acd986634dcffe51ccd4f977de36') in 0.011720 seconds 
+  Import took 0.014672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-03.png
+  artifactKey: Guid(8e2fec6535a164b4f8a1d9f8a36106ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-03.png using Guid(8e2fec6535a164b4f8a1d9f8a36106ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6055297ad0f67631c701bd3b3e6fd3eb') in 0.013139 seconds 
+  Import took 0.015759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-01.png
+  artifactKey: Guid(b6c1c43e3c87a094f810aae66ca11218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-01.png using Guid(b6c1c43e3c87a094f810aae66ca11218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08958967751a3f061aa461216240e2') in 0.012743 seconds 
+  Import took 0.015395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-jump-03.png
+  artifactKey: Guid(a2d101a3aa6ab164ba7600cb7059b3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-jump-03.png using Guid(a2d101a3aa6ab164ba7600cb7059b3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae640cba9409042704b433b1b031737') in 0.009673 seconds 
+  Import took 0.012307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-2-00.png
+  artifactKey: Guid(9942ebdb209f33744bb78990b68d9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-2-00.png using Guid(9942ebdb209f33744bb78990b68d9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a93be914ce36acfe79ee1043bb23055') in 0.013258 seconds 
+  Import took 0.016198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-cast-01.png
+  artifactKey: Guid(9adf88c18ad28ca4f90f636f1b71f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-cast-01.png using Guid(9adf88c18ad28ca4f90f636f1b71f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1516c66e186441c54eb653f5bed6d0') in 0.010140 seconds 
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-fall-01.png
+  artifactKey: Guid(ce3f2a619257f7b439e0ab620be7116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-fall-01.png using Guid(ce3f2a619257f7b439e0ab620be7116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bf8607ba8a1685fbe1071d0716a3be') in 0.010776 seconds 
+  Import took 0.013532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-jump-00.png
+  artifactKey: Guid(4d17875dcb2a33444af3384655de9b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-jump-00.png using Guid(4d17875dcb2a33444af3384655de9b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32ff0835c703403caddd8ef7cc13b79') in 0.011286 seconds 
+  Import took 0.027213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-jump-02.png
+  artifactKey: Guid(2f10a6bb5420edd4cb187f95f5b66cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-jump-02.png using Guid(2f10a6bb5420edd4cb187f95f5b66cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebf10d41d0f99268ed699c9f7dbcf7a') in 0.013516 seconds 
+  Import took 0.017110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-03.png
+  artifactKey: Guid(a251a93469028f446a49d82a76bdd5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-03.png using Guid(a251a93469028f446a49d82a76bdd5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749ab1ce9c42681e2c5456d0f23e2fc0') in 0.011833 seconds 
+  Import took 0.014807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-jmp-00.png
+  artifactKey: Guid(42a0451a49bfee046be5a55636dd19ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-jmp-00.png using Guid(42a0451a49bfee046be5a55636dd19ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40afb852bbed5fbed69add75eb545f9a') in 0.011041 seconds 
+  Import took 0.013771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-03.png
+  artifactKey: Guid(a251a93469028f446a49d82a76bdd5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-03.png using Guid(a251a93469028f446a49d82a76bdd5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749ab1ce9c42681e2c5456d0f23e2fc0') in 0.007098 seconds 
+  Import took 0.009906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-00.png
+  artifactKey: Guid(f2bc153f6833dc940ac2611ea92b37c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-00.png using Guid(f2bc153f6833dc940ac2611ea92b37c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfe1984ba8cb236cad45e1648ac6ed7') in 0.011068 seconds 
+  Import took 0.013944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crouch-03.png
+  artifactKey: Guid(88cfcd2e777bca546869aab6d8af31b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crouch-03.png using Guid(88cfcd2e777bca546869aab6d8af31b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8b88053879f53ea2f24dfa8de70a1c') in 0.011974 seconds 
+  Import took 0.014841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack2-04.png
+  artifactKey: Guid(4c3e5b6b9da1d5a49aa0926a759b45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack2-04.png using Guid(4c3e5b6b9da1d5a49aa0926a759b45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5986e993b12c7eeabe1669beb86bb173') in 0.012827 seconds 
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crouch-01.png
+  artifactKey: Guid(d41250bc779e0bf4ba3f86d26ffcf298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crouch-01.png using Guid(d41250bc779e0bf4ba3f86d26ffcf298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3140d83453c7b5c51aff326ab4cf04') in 0.010749 seconds 
+  Import took 0.013596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack3-03.png
+  artifactKey: Guid(e75bdb530a3e9ba40a59d864bdd9234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack3-03.png using Guid(e75bdb530a3e9ba40a59d864bdd9234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4aa4a6a3efb7b34c04d4f485cab80b') in 0.014757 seconds 
+  Import took 0.017577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-jmp-01.png
+  artifactKey: Guid(7840683614117d7478dd1176893ebc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-jmp-01.png using Guid(7840683614117d7478dd1176893ebc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03a302737400ca020ece21d77ac4fbf') in 0.012397 seconds 
+  Import took 0.014965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-2-03.png
+  artifactKey: Guid(cf43de96ac647c141821b01356ef378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-2-03.png using Guid(cf43de96ac647c141821b01356ef378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b72b2d1f19962f89af615e252c516f8') in 0.012381 seconds 
+  Import took 0.015154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-items-02.png
+  artifactKey: Guid(00038383b2553274c882c78b68b9e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-items-02.png using Guid(00038383b2553274c882c78b68b9e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19a6b855ca6e501eb2f93e53f347f76') in 0.010201 seconds 
+  Import took 0.012974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-03.png
+  artifactKey: Guid(f6ee7d04673b42e4894429017c0269a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-03.png using Guid(f6ee7d04673b42e4894429017c0269a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921f45e8a5dec4cd2bd4cce4e29d32eb') in 0.011618 seconds 
+  Import took 0.014403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-jump-01.png
+  artifactKey: Guid(aa1fa45faab7a4a48b5e3bd0d0d9e556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-jump-01.png using Guid(aa1fa45faab7a4a48b5e3bd0d0d9e556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58adc724c2f4671230fedbeb3441119') in 0.012123 seconds 
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-2-02.png
+  artifactKey: Guid(fbe6c9d6a71da6c46b2927d35b8b63a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-2-02.png using Guid(fbe6c9d6a71da6c46b2927d35b8b63a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0eb9fb68cd288254b854742e51aa69') in 0.010614 seconds 
+  Import took 0.013309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-items-01.png
+  artifactKey: Guid(18ea342d2ecd9084c98a8f5113735313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-items-01.png using Guid(18ea342d2ecd9084c98a8f5113735313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22d1872858ff5347e936f0b9bb90b29') in 0.010642 seconds 
+  Import took 0.013736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-clmb-04.png
+  artifactKey: Guid(e264fd1a4f48cac49a45e2890b710ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-clmb-04.png using Guid(e264fd1a4f48cac49a45e2890b710ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58eea0ec977b285abb57f35119e245af') in 0.011656 seconds 
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack1-00.png
+  artifactKey: Guid(1eaf81d5f32e44a478732e6ab4974dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack1-00.png using Guid(1eaf81d5f32e44a478732e6ab4974dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcaaebaa6716b74addbeba547fd1b94') in 0.012426 seconds 
+  Import took 0.015507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-attack3-02.png
+  artifactKey: Guid(2c175a71f4ca90a4e8c1f83595e4e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-attack3-02.png using Guid(2c175a71f4ca90a4e8c1f83595e4e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafe68093c0adb74477b0e0f8f3b0763') in 0.010088 seconds 
+  Import took 0.012698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crouch-02.png
+  artifactKey: Guid(ff675b6462328104cb846d5d56c3f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crouch-02.png using Guid(ff675b6462328104cb846d5d56c3f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010165b1856ab5125fec7bb1f9e6eee2') in 0.010029 seconds 
+  Import took 0.012878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack3-rdy-00.png
+  artifactKey: Guid(f75341e1eb2622c419df5538dc4025c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack3-rdy-00.png using Guid(f75341e1eb2622c419df5538dc4025c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672acff114d7e7874dcf0a862249f3ed') in 0.009724 seconds 
+  Import took 0.012838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-grb-01.png
+  artifactKey: Guid(e654ec21e636c5942bb57bbbf5e1ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-grb-01.png using Guid(e654ec21e636c5942bb57bbbf5e1ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a38970d09911e7f3825c1c8e0b53ae') in 0.010231 seconds 
+  Import took 0.013183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack3-loop-01.png
+  artifactKey: Guid(ab35b137eb4630446898c1b88831cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack3-loop-01.png using Guid(ab35b137eb4630446898c1b88831cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca001a9ca5011ad09781497f8d95ecd') in 0.015793 seconds 
+  Import took 0.018601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-die-04.png
+  artifactKey: Guid(4e8ba5f38f937b84eabf85e4133be272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-die-04.png using Guid(4e8ba5f38f937b84eabf85e4133be272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731567774f38d0ddb35d360b27956988') in 0.009746 seconds 
+  Import took 0.012606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack3-loop-01.png
+  artifactKey: Guid(ab35b137eb4630446898c1b88831cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack3-loop-01.png using Guid(ab35b137eb4630446898c1b88831cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca001a9ca5011ad09781497f8d95ecd') in 0.008787 seconds 
+  Import took 0.011901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-crnr-clmb-03.png
+  artifactKey: Guid(94f907c7d770acd4f8771b60087c8872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-crnr-clmb-03.png using Guid(94f907c7d770acd4f8771b60087c8872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4b13b7cd2d51c51a06c70ff7a99eb2') in 0.010669 seconds 
+  Import took 0.013593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-fall-00.png
+  artifactKey: Guid(c33769a686f54ff41aae120700bcf635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-fall-00.png using Guid(c33769a686f54ff41aae120700bcf635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f180201d9e3f37ebb88cd14c77d865') in 0.011987 seconds 
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-02.png
+  artifactKey: Guid(c545aa5a42032c448bca00d095ed62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-02.png using Guid(c545aa5a42032c448bca00d095ed62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24350489b90e0116a7816cce3adc1d59') in 0.010444 seconds 
+  Import took 0.013254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-fall-00.png
+  artifactKey: Guid(c33769a686f54ff41aae120700bcf635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-fall-00.png using Guid(c33769a686f54ff41aae120700bcf635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f180201d9e3f37ebb88cd14c77d865') in 0.006302 seconds 
+  Import took 0.009458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-idle-02.png
+  artifactKey: Guid(c545aa5a42032c448bca00d095ed62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-idle-02.png using Guid(c545aa5a42032c448bca00d095ed62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24350489b90e0116a7816cce3adc1d59') in 0.006687 seconds 
+  Import took 0.009712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.635528 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-00.png
+  artifactKey: Guid(5b04994db628d824a9f13708d1bc77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-00.png using Guid(5b04994db628d824a9f13708d1bc77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5ad5a361d5e19110334ba782566d20') in 0.013819 seconds 
+  Import took 0.017353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005838 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-00.png
+  artifactKey: Guid(5b04994db628d824a9f13708d1bc77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-air-attack-3-end-00.png using Guid(5b04994db628d824a9f13708d1bc77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5ad5a361d5e19110334ba782566d20') in 0.006434 seconds 
+  Import took 0.009447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.128405 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-ladder-climb-01.png
+  artifactKey: Guid(ab8bed89d4211e344bad266a3e34da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-ladder-climb-01.png using Guid(ab8bed89d4211e344bad266a3e34da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861754be66aa2e8779874a530948b41a') in 0.015066 seconds 
+  Import took 0.019689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-02.png
+  artifactKey: Guid(6181f693aa8bb404a98e207830687b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-02.png using Guid(6181f693aa8bb404a98e207830687b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18a8eae8db47e0f2a9205e9752675ba') in 0.011310 seconds 
+  Import took 0.014252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-shte-02.png
+  artifactKey: Guid(8c4252f4312d9034cbd0aa54d7058056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-shte-02.png using Guid(8c4252f4312d9034cbd0aa54d7058056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bd27d2a4cee399e9fa5f58cb838db5') in 0.011304 seconds 
+  Import took 0.014268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-01.png
+  artifactKey: Guid(0b16d80e30a568d40ba62925ca68cb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-01.png using Guid(0b16d80e30a568d40ba62925ca68cb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c013551006265c53c04975d06434145e') in 0.013555 seconds 
+  Import took 0.016468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-05.png
+  artifactKey: Guid(dfbf25a952d659543a52f9f7652c5f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-05.png using Guid(dfbf25a952d659543a52f9f7652c5f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91c67508995f3c632b8befb9bec2f60') in 0.009891 seconds 
+  Import took 0.023521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-stand-02.png
+  artifactKey: Guid(482b454b9e1fb994caeddbfc548ff0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-stand-02.png using Guid(482b454b9e1fb994caeddbfc548ff0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857a192779f12cca341b9a2010c51ae9') in 0.022648 seconds 
+  Import took 0.025265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-drw-00.png
+  artifactKey: Guid(02be0db73bd5d564baa2a2763d1a5715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-drw-00.png using Guid(02be0db73bd5d564baa2a2763d1a5715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1810efef3296947a81dc4df904e90f6') in 0.010589 seconds 
+  Import took 0.013421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-drw-01.png
+  artifactKey: Guid(9d40496a1b43e2649881c83705d23550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-drw-01.png using Guid(9d40496a1b43e2649881c83705d23550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effa81cf51267d9f4af0b3c208918ef2') in 0.010611 seconds 
+  Import took 0.013297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-stand-00.png
+  artifactKey: Guid(a7433fba9083d19498a1b5094d205f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-stand-00.png using Guid(a7433fba9083d19498a1b5094d205f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c57e3f94d6bdec046dc826d6e083b8') in 0.010075 seconds 
+  Import took 0.012910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-shte-01.png
+  artifactKey: Guid(1b7369dbf8485d2479dcb2bd10bad527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-shte-01.png using Guid(1b7369dbf8485d2479dcb2bd10bad527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a41bd35cec16c17cb9739bd14386967') in 0.011448 seconds 
+  Import took 0.030478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-smrslt-01.png
+  artifactKey: Guid(7561d6967685cbe499528186db25256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-smrslt-01.png using Guid(7561d6967685cbe499528186db25256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d0b2a9d6508fb77932acef5b1a9548') in 0.011351 seconds 
+  Import took 0.013941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-stand-01.png
+  artifactKey: Guid(d8da507ca5d6012489eb389498dfbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-stand-01.png using Guid(d8da507ca5d6012489eb389498dfbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d81ca919741c7105e155fd553d57b39') in 0.013627 seconds 
+  Import took 0.016316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-ladder-climb-03.png
+  artifactKey: Guid(aeb93671ae956ec448c7888100aab1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-ladder-climb-03.png using Guid(aeb93671ae956ec448c7888100aab1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9304943d1f23376e4b6c89ffef4611') in 0.011495 seconds 
+  Import took 0.014369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-stand-01.png
+  artifactKey: Guid(d8da507ca5d6012489eb389498dfbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-stand-01.png using Guid(d8da507ca5d6012489eb389498dfbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d81ca919741c7105e155fd553d57b39') in 0.009588 seconds 
+  Import took 0.012936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-smrslt-03.png
+  artifactKey: Guid(2588f755ff6da4d47af2b61cde89f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-smrslt-03.png using Guid(2588f755ff6da4d47af2b61cde89f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145452f3fe0129994c26a1bf5c31015') in 0.010436 seconds 
+  Import took 0.013215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-shte-00.png
+  artifactKey: Guid(e25e2d75e1305ff44b49838a0845bc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-shte-00.png using Guid(e25e2d75e1305ff44b49838a0845bc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2883c3e7a7f8a8367adb9b9cfb904663') in 0.010414 seconds 
+  Import took 0.013329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-smrslt-00.png
+  artifactKey: Guid(6c6bbd117eb1c5346825865e9da0e972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-smrslt-00.png using Guid(6c6bbd117eb1c5346825865e9da0e972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6717de321b7ca4942f8cab43955f3b4c') in 0.012590 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-wall-slide-01.png
+  artifactKey: Guid(7cbc593431d7dd543a1b79802d0aefab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-wall-slide-01.png using Guid(7cbc593431d7dd543a1b79802d0aefab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7176f0e3d5243b80afabe2dc2c5c934f') in 0.010860 seconds 
+  Import took 0.013823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-00.png
+  artifactKey: Guid(396ad0231a9c7b349936479f6c90dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-00.png using Guid(396ad0231a9c7b349936479f6c90dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bde69b2b775b56f34a60cbc50a8e62') in 0.013673 seconds 
+  Import took 0.016430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-ladder-climb-02.png
+  artifactKey: Guid(57d9adc8318e76149ab06401ea6f7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-ladder-climb-02.png using Guid(57d9adc8318e76149ab06401ea6f7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f99f33f5912295890ce42b80fd739c') in 0.013287 seconds 
+  Import took 0.016195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-slide-00.png
+  artifactKey: Guid(46eefb24f3434f5428b442712e47d346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-slide-00.png using Guid(46eefb24f3434f5428b442712e47d346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c766051e028d86397f1973580f933c') in 0.011854 seconds 
+  Import took 0.014679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-slide-01.png
+  artifactKey: Guid(0ead6f4450851be40b573b1ed6823769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-slide-01.png using Guid(0ead6f4450851be40b573b1ed6823769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b862f1d06e3be54c67a95c98abad77a') in 0.011232 seconds 
+  Import took 0.014589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-smrslt-02.png
+  artifactKey: Guid(9edbac7b0d752ac4a9b41c3e03a435e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-smrslt-02.png using Guid(9edbac7b0d752ac4a9b41c3e03a435e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0fed85b3319cd4bb5b8ecdc8484609') in 0.014048 seconds 
+  Import took 0.017025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-shte-03.png
+  artifactKey: Guid(5eb9dddbe5320864892ce450a5d1d31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-shte-03.png using Guid(5eb9dddbe5320864892ce450a5d1d31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54707a9d5e1033db971ce3ad01a14b41') in 0.012495 seconds 
+  Import took 0.015901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-drw-03.png
+  artifactKey: Guid(63ea92eac858e60409bb98b1a3830859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-drw-03.png using Guid(63ea92eac858e60409bb98b1a3830859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bca33b7795de4c9784b5e72464818a') in 0.012222 seconds 
+  Import took 0.015296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-swrd-drw-02.png
+  artifactKey: Guid(21a459b62bdd3fd448cc3f26cd4f406b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-swrd-drw-02.png using Guid(21a459b62bdd3fd448cc3f26cd4f406b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700ee80b6064e5545328201fe21d5112') in 0.010288 seconds 
+  Import took 0.013379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-03.png
+  artifactKey: Guid(284c41b3af60ea546b23d0ae7abe1ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-03.png using Guid(284c41b3af60ea546b23d0ae7abe1ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c598cc45d7e8967d0c247b52b2045d') in 0.011619 seconds 
+  Import took 0.014789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-04.png
+  artifactKey: Guid(5e52d981801478e47a8051474e7e9b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-04.png using Guid(5e52d981801478e47a8051474e7e9b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ed55c741e01f2c7e741614eaeb9f73') in 0.011622 seconds 
+  Import took 0.014636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-wall-slide-00.png
+  artifactKey: Guid(55ee0601116bb1147a40970e98d42553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-wall-slide-00.png using Guid(55ee0601116bb1147a40970e98d42553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1ba1e26e9c0b56ce88bc8029046e0d') in 0.010372 seconds 
+  Import took 0.013229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.376102 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-00.png
+  artifactKey: Guid(396ad0231a9c7b349936479f6c90dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-00.png using Guid(396ad0231a9c7b349936479f6c90dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b004d7460c0ea2cd22aecf4ed9b85d7c') in 0.008300 seconds 
+  Import took 0.011934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014147 seconds.
+  path: Assets/圖片/Individual Sprites/adventurer-run-00.png
+  artifactKey: Guid(396ad0231a9c7b349936479f6c90dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Individual Sprites/adventurer-run-00.png using Guid(396ad0231a9c7b349936479f6c90dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b004d7460c0ea2cd22aecf4ed9b85d7c') in 0.007073 seconds 
+  Import took 0.009922 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
