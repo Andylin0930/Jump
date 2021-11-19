@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class Mid : MonoBehaviour
