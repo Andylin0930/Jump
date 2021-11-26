@@ -134,7 +134,8 @@ GameObject:
   - component: {fileID: 131474135}
   - component: {fileID: 131474137}
   - component: {fileID: 131474136}
-  m_Layer: 0
+  - component: {fileID: 131474138}
+  m_Layer: 6
   m_Name: "\u8DF3\u53F0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,6 +804,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &131474138
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131474134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &571587519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,8 +1637,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64080842bb9a3fe47858a82f63e21603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 10
   jump: 300
+  cheakGroundRadius: 0.1
+  ckeakGroundOffset: {x: 0.1, y: -1.2, z: 0}
+  keyjump: 32
+  canJumpLayer:
+    serializedVersion: 2
+    m_Bits: 72
 --- !u!50 &1391488997
 Rigidbody2D:
   serializedVersion: 4
@@ -2225,7 +2248,7 @@ GameObject:
   - component: {fileID: 1935869264}
   - component: {fileID: 1935869266}
   - component: {fileID: 1935869267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
