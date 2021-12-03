@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    #region
+    #region 欄位 : 公開
     [Header("移動速度"), Range(0, 500)]
     public float speed = 10.5f;
     [Header("跳躍高度"), Range(0, 1500)]
@@ -18,12 +18,26 @@ public class Controller : MonoBehaviour
     [Header("跳躍按鍵與可跳躍圖層")]
     public KeyCode keyjump = KeyCode.Space;
     public LayerMask canJumpLayer;
+    [Header("動畫參數: 走路與跳躍")]
+    public string parameterWalk = "跑步";
+    public string parameterJump = "跳躍";
 
+    #endregion
+
+    #region 欄位 : 私人
+    private Animator ani;
     /// <summary>
     /// 剛體元件
     /// <summary>
     private Rigidbody2D rig;
-    
+    [SerializeField]
+    /// <summary>
+    /// 是否在底板上
+    /// <summary>
+    private bool isGround;
+    #endregion
+
+    #region 事件
     /// <summary>
     /// 繪製圖示
     /// 在 Unity 繪製輔助用的圖示
@@ -44,8 +58,9 @@ public class Controller : MonoBehaviour
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
     }
-    #endregion
+    
 
     /// <summary>
     ///  Upate 約 60 秒 FPS
@@ -60,7 +75,10 @@ public class Controller : MonoBehaviour
     private void Update()
     {
         Flip();
+        CheckGround();
+        Jump();
     }
+    #endregion
 
     #region 方法
 
@@ -72,11 +90,13 @@ public class Controller : MonoBehaviour
     {
         // h 值 指定為 輸入.取得軸向(水平軸) - 水平軸代表左右鍵與 AD
         float h = Input.GetAxis("Horizontal");
-        print("玩家左右按鍵值:" + h);
+        //print("玩家左右按鍵值:" + h);
         //剛體元件.加速度 = 新 二維向量(h 值 * 移動速度, 剛體.加速度.垂直);
         rig.velocity = new Vector2(h * speed, rig.velocity.y);
+        // 當 水平值 不等於零 勾選 跑步參數
+        ani.SetBool(parameterWalk, h != 0);
     }
-    #endregion
+    
 
     /// <summary>
     /// 翻面
@@ -96,5 +116,30 @@ public class Controller : MonoBehaviour
         {
             transform.eulerAngles = Vector3.zero;
         }
+       
+        
     }
+    /// <summary>
+    ///  檢查是否在地板
+    /// </summary>
+    private void CheckGround()
+    {
+        // 碰撞資訊 = 2D 物理.覆蓋圓形(中心點，半徑，圖層)
+        Collider2D hit =  Physics2D.OverlapCircle(transform.position + transform.TransformDirection(ckeakGroundOffset), cheakGroundRadius, canJumpLayer);
+        // print("碰到物件的名稱 : " + hit.name);
+        isGround = hit;
+        // 當 不在地板上 勾選
+        ani.SetBool(parameterJump, !isGround);
+    }
+    private void Jump()
+    {
+        // 如果 在底板上 並且 按下指定按鍵(空白鍵)
+        if (isGround && Input.GetKeyDown(keyjump))
+        {
+            // 剛體.添加推力(二為向量)
+            rig.AddForce(new Vector2(0, jump));
+        }
+    }
+
+    #endregion
 }
