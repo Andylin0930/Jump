@@ -838,7 +838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571587519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.6968956, y: -2.07, z: 25.269693}
+  m_LocalPosition: {x: 1.79, y: -2.04, z: 25.269693}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1344990488}
@@ -1853,7 +1853,7 @@ Animator:
   m_GameObject: {fileID: 1188571183}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9eb31f8ae30134848996f80476299725, type: 2}
+  m_Controller: {fileID: 9100000, guid: 36f39f4d7ac4f174a9ee718a8c6352bc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1911,6 +1911,7 @@ GameObject:
   - component: {fileID: 1277999045}
   - component: {fileID: 1277999044}
   - component: {fileID: 1277999043}
+  - component: {fileID: 1277999046}
   m_Layer: 0
   m_Name: npc
   m_TagString: Untagged
@@ -1996,12 +1997,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277999042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.81, y: 0.8, z: -1}
+  m_LocalPosition: {x: 3.36, y: -1.13, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1277999046
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277999042}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009433031, y: 1.8114038}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 6.25, y: 5}
+    newSize: {x: 6.25, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.6466599, y: 3.6228075}
+  m_EdgeRadius: 0
 --- !u!1 &1287120947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,7 +2323,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3316437661583186769, guid: 383893d869ba7204ea189eaed402d21b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6810,6 +6837,8 @@ MonoBehaviour:
   interval: 0.03
   goDialogue: {fileID: 807073742}
   TextContent: {fileID: 833584401}
+  goTip: {fileID: 1188571183}
+  keyDialogue: 323
 --- !u!4 &2116657647
 Transform:
   m_ObjectHideFlags: 0
