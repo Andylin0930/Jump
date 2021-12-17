@@ -4,6 +4,7 @@ using System.Collections;
 
 public class DialogueSystem : MonoBehaviour
 {
+    #region 欄位
     [Header("對話系統"), Range(0, 1)]
     public float interval = 0.2f;
     [Header("畫布對話系統")]
@@ -14,7 +15,7 @@ public class DialogueSystem : MonoBehaviour
     public GameObject goTip;
     [Header("對話按鍵")]
     public KeyCode keyDialogue = KeyCode.Mouse0;
-
+    #endregion
     private void Start()
     {
         //StartCoroutine(TypeEffect());
@@ -54,5 +55,23 @@ public class DialogueSystem : MonoBehaviour
         }
 
         goDialogue.SetActive(false);                    // 隱藏 對話物件
-    } 
+    }
+
+    /// <summary>
+    /// 開始對話
+    /// </summary>
+    /// <param name="contents">要顯示打字效果的對話內容</param>
+    public void StarDialogue(string[] contents)
+    {
+        StartCoroutine(TypeEffect(contents));
+    }
+
+    /// <summary>
+    /// 停止對話
+    /// </summary>
+    public void StopDialogue()
+    { 
+        StopAllCoroutines();           // 停止協程
+        goDialogue.SetActive(false);   // 隱藏對話介面
+    }
 }
