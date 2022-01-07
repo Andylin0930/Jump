@@ -11,6 +11,7 @@ public class SceneControl : MonoBehaviour
     public void OnApplicationQuit()
     {
         Application.Quit();
+        print("Ãö³¬¹CÀ¸");
 
     }
 }
