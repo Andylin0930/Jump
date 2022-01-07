@@ -105,6 +105,9 @@ public class Enemy : MonoBehaviour
         }
  
         }
+
+    [Header("攻擊力"), Range(0, 100)]
+    public float attack = 20;
     /// <summary>
     /// 攻擊
     /// </summary>
@@ -119,7 +122,8 @@ public class Enemy : MonoBehaviour
             ani.SetTrigger(parameterAttack); // 如果 計時器 大於等於 冷卻時間 就 攻擊
             timerAttack = 0;                 // 計時器 歸零
             Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize, 0, layerTraget);
-            print("攻擊到物件 : " + hit.name);
+            //print("攻擊到物件 : " + hit.name);
+            hit.GetComponent<HurtSystem>().Hurt(attack);
         }
     }
     #endregion
