@@ -6,19 +6,13 @@ public class HpSystem : MonoBehaviour
 {
     [Header("血量")]
     public Image imgHp;
-    [Header("血量")]
-    public float hp = 100;
 
-    private float maxHp;
-    private void Awake()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-       
-        maxHp = hp;
-    }
-
-    public void ChangeHealyh(float amount)
-    {
-        hp -= amount;
-        imgHp.fillAmount = hp / maxHp;
+            if (collision.gameObject.name == "回復道具")
+            {
+                imgHp.fillAmount += 0.2f;
+                Destroy(collision.gameObject);
+            }
     }
 }

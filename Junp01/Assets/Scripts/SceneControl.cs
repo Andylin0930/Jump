@@ -11,7 +11,7 @@ public class SceneControl : MonoBehaviour
     public void OnApplicationQuit()
     {
         Application.Quit();
-        print("關閉遊戲");
+        //print("關閉遊戲");
 
     }
 }
