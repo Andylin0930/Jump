@@ -7,11 +7,13 @@ public class HpSystem : MonoBehaviour
     [Header("血量")]
     public Image imgHp;
 
+  
     private void OnTriggerEnter2D(Collider2D collision)
     {
             if (collision.gameObject.name == "回復道具")
             {
                 imgHp.fillAmount += 0.2f;
+
                 Destroy(collision.gameObject);
             }
     }

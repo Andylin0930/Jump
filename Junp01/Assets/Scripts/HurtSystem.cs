@@ -40,4 +40,19 @@ public class HurtSystem : MonoBehaviour
         ani.SetTrigger(parameterDead);
         onDead.Invoke();
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "¦^´_¹D¨ã")
+        {
+            imgHpBar.fillAmount += 0.2f;
+            Destroy(collision.gameObject);
+        }
+    }
+    public void Health(float hea)
+    {
+        hp += hea;
+        imgHpBar.fillAmount = hp / hpMax;
+
+    }
 }
