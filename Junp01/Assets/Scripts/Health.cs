@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         {
             HurtSystem Health = collision.GetComponent<HurtSystem>();
             Health.Health(heal);
-            //Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }
