@@ -1994,6 +1994,7 @@ GameObject:
   - component: {fileID: 208406281}
   - component: {fileID: 208406280}
   - component: {fileID: 208406279}
+  - component: {fileID: 208406282}
   m_Layer: 0
   m_Name: "\u56DE\u5FA9\u9053\u5177"
   m_TagString: Untagged
@@ -2082,6 +2083,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &208406282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208406278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e396850534b5341b22a276c560e858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerTarget:
+    serializedVersion: 2
+    m_Bits: 0
+  heal: 20
 --- !u!1 &331175039
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,24 +35,16 @@ public class HurtSystem : MonoBehaviour
         imgHpBar.fillAmount = hp / hpMax;
         if (hp <= 0) Dead();
     }
+
+    public void Health(float hea)
+    {
+        hp = hp+ hea;
+        imgHpBar.fillAmount = hp / hpMax;
+
+    }
     private void Dead()
     {
         ani.SetTrigger(parameterDead);
         onDead.Invoke();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.name == "¦^´_¹D¨ã")
-        {
-            imgHpBar.fillAmount += 0.2f;
-            Destroy(collision.gameObject);
-        }
-    }
-    public void Health(float hea)
-    {
-        hp += hea;
-        imgHpBar.fillAmount = hp / hpMax;
-
     }
 }
