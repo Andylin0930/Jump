@@ -35,7 +35,10 @@ public class HurtSystem : MonoBehaviour
         imgHpBar.fillAmount = hp / hpMax;
         if (hp <= 0) Dead();
     }
-
+    /// <summary>
+    /// 回血
+    /// </summary>
+    /// <param name="hea">回復的血量</param>
     public void Health(float hea)
     {
         hp = hp+ hea;

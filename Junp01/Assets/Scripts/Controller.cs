@@ -77,6 +77,7 @@ public class Controller : MonoBehaviour
         Flip();
         CheckGround();
         Jump();
+        fast();
     }
     #endregion
 
@@ -139,6 +140,19 @@ public class Controller : MonoBehaviour
             // 剛體.添加推力(二為向量)
             rig.AddForce(new Vector2(0, jump));
         }
+    }
+    // 加速
+    private void fast()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = 15;
+        }
+        else
+        {
+            speed = 10;
+        }
+        
     }
 
     #endregion

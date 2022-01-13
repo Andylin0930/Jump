@@ -10,7 +10,6 @@ public class Health : MonoBehaviour
     [Header("¸É¦å¶q")]
     public float heal = 20;
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "¥D¨¤")
