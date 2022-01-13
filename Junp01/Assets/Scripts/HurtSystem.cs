@@ -41,8 +41,19 @@ public class HurtSystem : MonoBehaviour
     /// <param name="hea">回復的血量</param>
     public void Health(float hea)
     {
-        hp = hp+ hea;
+        hp = hp + hea;
         imgHpBar.fillAmount = hp / hpMax;
+
+    }
+    /// <summary>
+    /// 扣寫
+    /// </summary>
+    /// <param name="dam">回復的血量</param>
+    public void Damage(float dam)
+    {
+        hp = hp - dam;
+        imgHpBar.fillAmount = hp / hpMax;
+        if (hp <= 0) Dead();
 
     }
     private void Dead()
